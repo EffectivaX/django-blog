@@ -68,8 +68,8 @@ INSTALLED_APPS = [
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-CKEDITOR_CONFIGS ={
-    "default":{
+CKEDITOR_CONFIGS = {
+    "default": {
         "removePlugins": "stylesheetparser",
         "toolbar": 'full',
         # 'height': 300,
@@ -126,7 +126,7 @@ DATABASES = {
 
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'blogger',
+        'NAME': 'blog',
         'USER': 'xeroxzen',
         'PASSWORD': '2020',
         'HOST': 'localhost',
